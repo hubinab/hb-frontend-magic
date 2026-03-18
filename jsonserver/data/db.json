@@ -1,0 +1,458 @@
+{
+  "schools": [
+    {
+      "id": "1",
+      "name": "Pusztítás"
+    },
+    {
+      "id": "2",
+      "name": "Illúzió"
+    },
+    {
+      "id": "3",
+      "name": "Nekromancia"
+    },
+    {
+      "id": "4",
+      "name": "Védelmezés"
+    },
+    {
+      "id": "5",
+      "name": "Gyógyítás"
+    },
+    {
+      "id": "6",
+      "name": "Idézés"
+    }
+  ],
+  "spells": [
+    {
+      "id": "1",
+      "name": "Tűzgolyó",
+      "description": "Egy fényes csík villan a mutatóujjadból egy általad választott pontra, majd pusztító erővel felrobban.",
+      "manaCost": 60,
+      "difficulty": "Profi",
+      "target": "Területi hatás",
+      "isVerbal": true,
+      "school_id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Láthatatlanság",
+      "description": "A megérintett lény teljesen láthatatlanná válik, amíg a varázslat véget nem ér vagy nem támad.",
+      "manaCost": 30,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": false,
+      "school_id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Holtak ébresztése",
+      "description": "Engedelmes élőhalott szolgát hoz létre egy halom csontból vagy egy élettelen testből.",
+      "manaCost": 75,
+      "difficulty": "Profi",
+      "target": "Holttest",
+      "isVerbal": true,
+      "school_id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Villámcsapás",
+      "description": "Egy vakító villám sújt le az égből a kijelölt célpontra, jelentős elektromos sebzést okozva.",
+      "manaCost": 45,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "1"
+    },
+    {
+      "id": "5",
+      "name": "Tükörkép",
+      "description": "Három illuzórikus másolatot hozol létre magadról, amik összezavarják a támadóidat.",
+      "manaCost": 25,
+      "difficulty": "Kezdő",
+      "target": "Önmagad",
+      "isVerbal": false,
+      "school_id": "2"
+    },
+    {
+      "id": "6",
+      "name": "Életerő elszívása",
+      "description": "Sötét energiával megcsapolod az ellenség életerejét, amivel a saját sebeidet gyógyítod.",
+      "manaCost": 50,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "3"
+    },
+    {
+      "id": "7",
+      "name": "Mágikus pajzs",
+      "description": "Láthatatlan erőteret hoz létre a varázsló körül, ami felfogja a fizikai és mágikus sebzések egy részét.",
+      "manaCost": 20,
+      "difficulty": "Kezdő",
+      "target": "Önmagad",
+      "isVerbal": false,
+      "school_id": "4"
+    },
+    {
+      "id": "8",
+      "name": "Bűvös börtön",
+      "description": "Egy áthatolhatatlan energiarácsot hoz létre a célpont körül, megakadályozva a mozgását.",
+      "manaCost": 80,
+      "difficulty": "Profi",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "4"
+    },
+    {
+      "id": "9",
+      "name": "Kisebb gyógyítás",
+      "description": "Lágy, fehér fény árad a tenyeredből, ami összeforrasztja a kisebb vágásokat és zúzódásokat.",
+      "manaCost": 15,
+      "difficulty": "Kezdő",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "5"
+    },
+    {
+      "id": "10",
+      "name": "Regeneráció",
+      "description": "A célpont sejtjei felgyorsult tempóban kezdenek gyógyulni, körről körre visszanyerve az életerőt.",
+      "manaCost": 55,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": false,
+      "school_id": "5"
+    },
+    {
+      "id": "11",
+      "name": "Jégeső",
+      "description": "Hatalmas jégtömbök hullanak az égből egy 10 méter sugarú körben, zúzva a célpontokat.",
+      "manaCost": 70,
+      "difficulty": "Profi",
+      "target": "Területi hatás",
+      "isVerbal": true,
+      "school_id": "1"
+    },
+    {
+      "id": "12",
+      "name": "Rémület",
+      "description": "A célpont legmélyebb félelmei öltenek alakot a fejében, menekülésre kényszerítve őt.",
+      "manaCost": 35,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "2"
+    },
+    {
+      "id": "13",
+      "name": "Lelkek tánca",
+      "description": "Kísérteties fények jelennek meg, amelyek elszívják a közelben tartózkodók akaraterejét.",
+      "manaCost": 40,
+      "difficulty": "Középhaladó",
+      "target": "Területi hatás",
+      "isVerbal": false,
+      "school_id": "3"
+    },
+    {
+      "id": "14",
+      "name": "Elemek védelme",
+      "description": "A varázsló immunitást szerez a tűz, fagy és villám sebzésekkel szemben egy rövid ideig.",
+      "manaCost": 65,
+      "difficulty": "Profi",
+      "target": "Önmagad",
+      "isVerbal": true,
+      "school_id": "4"
+    },
+    {
+      "id": "15",
+      "name": "Tisztítás",
+      "description": "Eltávolítja a célpontról a mérgezéseket, betegségeket és a negatív mágikus hatásokat.",
+      "manaCost": 30,
+      "difficulty": "Középhaladó",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "5"
+    },
+    {
+      "id": "16",
+      "name": "Farkasidézés",
+      "description": "Egy szellemi farkast hívsz át a másvilágról, aki segít neked a harcban.",
+      "manaCost": 40,
+      "difficulty": "Kezdő",
+      "target": "Kijelölt pont",
+      "isVerbal": true,
+      "school_id": "6"
+    },
+    {
+      "id": "17",
+      "name": "Teleportáció",
+      "description": "Azonnal áthelyez téged és felszerelésedet egy általad látott, biztonságos helyre.",
+      "manaCost": 90,
+      "difficulty": "Profi",
+      "target": "Kijelölt pont",
+      "isVerbal": false,
+      "school_id": "6"
+    },
+    {
+      "id": "18",
+      "name": "Fénycsóva",
+      "description": "Egy koncentrált fénysugár, ami megvakítja az ellenfelet és szent sebzést okoz.",
+      "manaCost": 25,
+      "difficulty": "Kezdő",
+      "target": "Egyetlen lény",
+      "isVerbal": true,
+      "school_id": "1"
+    },
+    {
+      "id": "19",
+      "name": "Árnyéklépés",
+      "description": "Lehetővé teszi, hogy egyik árnyékból a másikba ugorj át, észrevétlenül maradva.",
+      "manaCost": 45,
+      "difficulty": "Középhaladó",
+      "target": "Önmagad",
+      "isVerbal": false,
+      "school_id": "2"
+    },
+    {
+      "id": "20",
+      "name": "Életharmat",
+      "description": "Minden szövetségest egy kis mértékben meggyógyít a varázsló környezetében.",
+      "manaCost": 85,
+      "difficulty": "Profi",
+      "target": "Csoportos hatás",
+      "isVerbal": true,
+      "school_id": "5"
+    },
+    {
+      "name": "asdsdasd",
+      "description": "asdas",
+      "manaCost": 7,
+      "difficulty": "Kezdő",
+      "target": "asd",
+      "isVerbal": false,
+      "school_id": "1",
+      "id": "EMyLJAO",
+      "school": [
+        {
+          "id": "1",
+          "name": "Pusztítás"
+        }
+      ]
+    },
+    {
+      "name": "vbnvfcbncvbn",
+      "description": "klékléklé",
+      "manaCost": 5,
+      "difficulty": "Profi",
+      "target": "vbcncvbn",
+      "isVerbal": "true",
+      "school_id": "5",
+      "id": "0fG5jAC",
+      "school": [
+        {
+          "id": "5",
+          "name": "Gyógyítás"
+        }
+      ]
+    },
+    {
+      "name": "uiozuiozuio",
+      "description": "őpúpőúpőú",
+      "manaCost": 7,
+      "difficulty": "Középhaladó",
+      "target": "zuiozuiozuio",
+      "isVerbal": false,
+      "school_id": "4",
+      "id": "T8_a-tr",
+      "school": [
+        {
+          "id": "4",
+          "name": "Védelmezés"
+        }
+      ]
+    },
+    {
+      "name": "348795623498765",
+      "description": "32452345345",
+      "manaCost": 6,
+      "difficulty": "Mester",
+      "target": "3453245",
+      "isVerbal": false,
+      "school_id": "5",
+      "id": "QHhEK9x",
+      "school": [
+        {
+          "id": "5",
+          "name": "Gyógyítás"
+        }
+      ]
+    },
+    {
+      "name": "bxcvbxcvbxcvb",
+      "description": "fgsdfgsadfg",
+      "manaCost": 6,
+      "difficulty": "Profi",
+      "target": "vcbxcvbxcvbxc",
+      "isVerbal": false,
+      "school_id": "6",
+      "id": "QevBIH5",
+      "school": [
+        {
+          "id": "6",
+          "name": "Idézés"
+        }
+      ]
+    },
+    {
+      "name": "mn,.nm,.nm,.nm",
+      "description": "gfhgftz6u7rzutkj",
+      "manaCost": 7,
+      "difficulty": "Profi",
+      "target": "m,.nm,.nm,.",
+      "isVerbal": false,
+      "school_id": "4",
+      "id": "2dgse_Q",
+      "school": [
+        {
+          "id": "4",
+          "name": "Védelmezés"
+        }
+      ]
+    },
+    {
+      "name": "gggggggg",
+      "description": "gggggggggg",
+      "manaCost": 7,
+      "difficulty": "Kezdő",
+      "target": "gggggggg",
+      "isVerbal": "true",
+      "school_id": "2",
+      "id": "LyL-ScB",
+      "school": [
+        {
+          "id": "2",
+          "name": "Illúzió"
+        }
+      ]
+    },
+    {
+      "name": "fffffffffffff",
+      "description": "ffffffffffffffffffffffffff",
+      "manaCost": 6,
+      "difficulty": "Középhaladó",
+      "target": "ffffffffff",
+      "isVerbal": false,
+      "school_id": "3",
+      "id": "eJ5HPa5",
+      "school": [
+        {
+          "id": "3",
+          "name": "Nekromancia"
+        }
+      ]
+    },
+    {
+      "name": "vvvvvvvvvvvvvvvvvvvvv",
+      "description": "vvvvvvvvvvvvvvvvvvvv",
+      "manaCost": 5,
+      "difficulty": "Profi",
+      "target": "vvvvvvvvvvvvvvvv",
+      "isVerbal": false,
+      "school_id": "3",
+      "id": "JOgk3aU",
+      "school": [
+        {
+          "id": "3",
+          "name": "Nekromancia"
+        }
+      ]
+    },
+    {
+      "name": "jjjjjjjjjjjjjjjj",
+      "description": "jjjjjjjjjjjjjjjjjj",
+      "manaCost": 9,
+      "difficulty": "Profi",
+      "target": "jjjjjjjjjjjjjj",
+      "isVerbal": false,
+      "school_id": "2",
+      "id": "nsEzyW2",
+      "school": [
+        {
+          "id": "2",
+          "name": "Illúzió"
+        }
+      ]
+    },
+    {
+      "name": "kkkkkkkkkkkkkkkkkkkkk",
+      "description": "kkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+      "manaCost": 9,
+      "difficulty": "Profi",
+      "target": "kkkkkkkkk",
+      "isVerbal": false,
+      "school_id": "1",
+      "id": "UdWuCsy",
+      "school": [
+        {
+          "id": "1",
+          "name": "Pusztítás"
+        }
+      ]
+    },
+    {
+      "name": "lllllllllllllllllllllllll",
+      "description": "llllllllllllllllllllllllllllllll",
+      "manaCost": 8,
+      "difficulty": "Kezdő",
+      "target": "lllllllllllllllllll",
+      "isVerbal": false,
+      "school_id": "5",
+      "id": "hM6kSEu",
+      "school": [
+        {
+          "id": "5",
+          "name": "Gyógyítás"
+        }
+      ]
+    },
+    {
+      "name": "yyyyyyyyyyyyyyyyyyyy",
+      "description": "yyyyyyyyyyyyyyyyyy",
+      "manaCost": 7,
+      "difficulty": "Mester",
+      "target": "yyyyyyyyy",
+      "isVerbal": false,
+      "school_id": "2",
+      "id": "RU1wEu0",
+      "school": [
+        {
+          "id": "2",
+          "name": "Illúzió"
+        }
+      ]
+    },
+    {
+      "name": "ccccccccccccccc",
+      "description": "ccccccccccccccccccccc",
+      "manaCost": 8,
+      "difficulty": "Profi",
+      "target": "ccccccccc",
+      "isVerbal": false,
+      "school_id": "4",
+      "id": "YdTy-8_"
+    },
+    {
+      "name": "oooooooooooooooo",
+      "description": "ooooooooooooooooooooooooooo",
+      "manaCost": 9,
+      "difficulty": "Középhaladó",
+      "target": "oooooooooo",
+      "isVerbal": false,
+      "school_id": "2",
+      "id": "a4D5jc7"
+    }
+  ]
+}

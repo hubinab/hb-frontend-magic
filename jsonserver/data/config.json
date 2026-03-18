@@ -1,0 +1,15 @@
+{
+    "timestamps": false,
+    "relationships": [
+        {
+            "source": "schools",
+            "destination": "spells",
+            "type": "hasMany"
+        },
+        {
+            "source": "spells",
+            "destination": "schools",
+            "type": "belongsTo"
+        }
+    ]
+}
